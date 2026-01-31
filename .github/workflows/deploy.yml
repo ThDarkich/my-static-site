@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
 on:
+  permissions:
+    contents: write
   push:
     branches: [ main ]
   pull_request:
